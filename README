@@ -4,3 +4,7 @@ Commands user are:
 git init //initalize folder for use of git
 git add . //save snapshot of current directory
 git commit //store the version of the project
+
+Contact contributers:
+kuh1@aber.ac.uk    
+pas43@aber.ac.uk
