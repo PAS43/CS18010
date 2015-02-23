@@ -1,0 +1,6 @@
+This is a test of GitHub
+
+Commands user are:
+git init //initalize folder for use of git
+git add . //save snapshot of current directory
+git commit //store the version of the project
