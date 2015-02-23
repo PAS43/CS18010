@@ -1,7 +1,7 @@
 This is a test of GitHub
 
 Commands user are:
-//initalize folder for use of git
+//initalize folder for use of git. Do this once for first time setup
 git init
 
 //save snapshot of current directory
@@ -13,8 +13,13 @@ git add thisFile.txt
 //stores the snap shot of what you added to the local repository
 git commit -m "what you did here"
 
+//////////////////////First time setup for remote repository////////////
 //Adds to the original repository at the usernames address
 git remote add origin https://github.com/{USERNAMEHERE}/CS18010.git
 
 //Pushes the local repository to the remote GitHub account
 git push -u origin master
+////////////////////////////////////////////////////////////////////////
+
+//Use this everytime you want to push the local repository to GitHub. IE Making it a remote repository
+git push
