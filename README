@@ -1,6 +1,20 @@
 This is a test of GitHub
 
 Commands user are:
-git init //initalize folder for use of git
-git add . //save snapshot of current directory
-git commit //store the version of the project
+//initalize folder for use of git
+git init
+
+//save snapshot of current directory
+git add .
+
+//add's 'thisFile.txt' to the local repository
+git add thisFile.txt
+
+//stores the snap shot of what you added to the local repository
+git commit -m "what you did here"
+
+//Adds to the original repository at the usernames address
+git remote add origin https://github.com/{USERNAMEHERE}/CS18010.git
+
+//Pushes the local repository to the remote GitHub account
+git push -u origin master
